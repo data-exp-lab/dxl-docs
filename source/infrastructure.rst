@@ -4,10 +4,11 @@ Infrastructure Guide
 Compute Resources
 -----------------
 
-We have five dedicated use nodes available.  These nodes are provisioned
-through the NCSA Nebula system (http://nebula.ncsa.illinois.edu) and are
-typically pre-provisioned to allow for individual systems to be utilized by
-users.  At present, two of the five nodes are online.
+We have five dedicated use nodes available.  These nodes are not currently
+provisioned through the NCSA Nebula system (http://nebula.ncsa.illinois.edu)
+but will be soon.  They will typically be pre-provisioned to allow for
+individual systems to be utilized by users.  At present, two of the five nodes
+are online.
 
 These nodes have 20 cores each allowing 2 threads per core for a total of 40
 compute cores and are configured with 256GB of RAM.  The storage available on
@@ -25,8 +26,8 @@ where the port, here `31425`, will be specific to your username.  You can set a
 shorthand for this in `~/.ssh/config` like this:::
 
    Host dxl1
-      IdentityFile ~/.ssh/ssh_key_dxl
-      Port 31425
+     IdentityFile ~/.ssh/ssh_key_dxl
+     Port 31425
 
 Replace the values with the key you utilize and the port you are provided.
 
@@ -86,8 +87,8 @@ We run several services.
    which the file can be located.
  * ownCloud: You can log in with your NCSA credentials to
    https://hub.yt/owncloud/ to access a private ownCloud instance, which acts
-   like Dropbox or Google Drive, but which has access to the DXL ``/dpool/``
-   data.
+   like Dropbox or Google Drive.  Currently this has a total of 4TB available,
+   but may be migrated to using ``/dpool/`` eventually.
  * You can start a new `SAGE2 <http://sage2.sagecommons.org/>`_ instance by
    visiting https://hub.yt/startsage/ .  This will return you both a hash you
    can share with others (for screen sharing) and a running instance of SAGE2.
