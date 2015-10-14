@@ -11,15 +11,14 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   meta
    mission_statement
    expectations
    infrastructure
    communication
    coding_and_software
-   social_media_policy
    canonical_reads
    project
-   meta
 
 How to Modify this Document
 ===========================

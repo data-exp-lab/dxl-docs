@@ -59,3 +59,10 @@ ensure that the project members who cannot be in the office can still
 participate and understand.  This can help discourage the notion that projects
 developed on at DXL are not community projects, and will also help to continue
 engaging other members.
+
+Social Media Policy
+-------------------
+
+In general, unless there are embargos or restrictions, social media can be
+freely used.  However, lab members are encouraged to be respectful and kind
+while participating if they are representing themselves as lab members.
