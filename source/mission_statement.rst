@@ -80,6 +80,8 @@ Guiding this mission are a number of values that are core to our operations.
    those who develop it, and the best way to ensure we are guided is to be
    leading the charge in conducting scholarly inquiry for our own research
    goals.
+ * Sharing: Data, code and other digital research objects should be shared
+   whenever possible, in ways that enable reuse and discovery.
 
 DXL and yt
 ----------
