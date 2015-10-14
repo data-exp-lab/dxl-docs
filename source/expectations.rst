@@ -43,12 +43,30 @@ case-by-case basis.
 Data Management
 ---------------
 
-Data Management: When data is utilized by the lab, how is it stored?  How are
-files named?  Where would relational databases and their tables be stored?  Is
-there a naming convention?  When data is generated, how is it stored?  How is
-access to data managed (i.e., is data on a filesystem accessible to all members
-of the lab?  Is there an assumption of privacy?)  Is data cataloged, are notes
-kept, and how is the cataloging system handled?
+When data is used by the lab, it is expected to reside on the shared
+filesystem.  Accompanying this should be an index or README file describing
+what the data *is*, where it originated from, and what restrictions there are
+on its use.  When data is stored on the shared filesystem, there is no
+expectation of privacy within the lab unless it is explicitly enforced; for
+special cases this can be dealt with differently.  Lab members are not
+encouraged to browse other directories, but it is not forbidden.  For example,
+this might be an example directory structure:::
+
+  /dpool/mturk/DarkSkySims-DS14a/README
+  /dpool/mturk/DarkSkySims-DS14a/ds14_a_1.0000.sdf
+  /dpool/mturk/LIDAR-Philly/README
+  /dpool/mturk/LIDAR-Philly/data*
+  /dpool/mturk/HRRR-20140726/README
+  /dpool/mturk/HRRR-20140726/dir1/*
+  /dpool/mturk/HRRR-20140726/dir2/*
+
+and so on.  In the near-term future, we will be deploying a data cataloging
+system which will be fed with the data from README files, and which will be the
+primary cataloging system in the future.
+
+Wherever possible, names should conform to including either a date (if the data
+is tied to a specific time, parameter query or observation) or a
+semantically-meaningful name (if it is part of a larger project.)
 
 Openness
 --------
