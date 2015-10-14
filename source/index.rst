@@ -3,8 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Lab Carpentry
-========================
+Welcome to the Data Exploration Lab
+===================================
+
+In the Data Exploration Lab (DXL) we explore the intersection between data,
+analysis, visualization and computational science.
+
+tl;dr: data is fun when it has a metric.  Let's do cool things with that.
+
+This document is designed to be a reference document for lab members as well as
+part of an "onboarding" process when folks join the lab.
 
 Contents:
 
@@ -17,20 +25,6 @@ Contents:
    infrastructure
    communication
    coding_and_software
-
-How to Modify this Document
-===========================
-
-The skeleton repository for this document is at
-http://bitbucket.org/lab-carpentry/lab-carpentry/ .  To make changes, fork the
-document, make the changes you wish to see to the template, and issue a pull
-request.
-
-How to Use this Document
-========================
-
-Fork the repository, and in a branch with your lab name, extend the text
-(and add text as necessary) where appropriate.
 
 Indices and tables
 ==================

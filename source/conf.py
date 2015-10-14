@@ -46,9 +46,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Lab Carpentry'
-copyright = u'2015, DDD'
-author = u'DDD'
+project = u'Data Exploration Lab'
+copyright = u'2015, Matthew Turk'
+author = u'Matthew Turk'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -200,7 +200,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'LabCarpentrydoc'
+htmlhelp_basename = 'DXLdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -222,8 +222,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'LabCarpentry.tex', u'Lab Carpentry Documentation',
-   u'DDD', 'manual'),
+  (master_doc, 'DataExplorationLab.tex', u'Data Exploration Lab Documentation',
+   u'DXL', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -252,7 +252,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'labcarpentry', u'Lab Carpentry Documentation',
+    (master_doc, 'dxl', u'Data Exploration Lab',
      [author], 1)
 ]
 
@@ -266,8 +266,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'LabCarpentry', u'Lab Carpentry Documentation',
-   author, 'LabCarpentry', 'One line description of project.',
+  (master_doc, 'DXL', u'Data Exploration Lab',
+   author, 'Data Exploration Lab', '',
    'Miscellaneous'),
 ]
 
