@@ -17,8 +17,6 @@ Contents:
    infrastructure
    communication
    coding_and_software
-   canonical_reads
-   project
 
 How to Modify this Document
 ===========================
