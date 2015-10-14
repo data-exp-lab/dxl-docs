@@ -95,3 +95,27 @@ utilize it than to re-implement the functionality.  But, for
 difficult-to-install libraries or libraries where utilized functionality
 outweighs the overhead of installation, it's better to bring it up for a
 discussion.
+
+Project Leadership
+------------------
+
+When software is developed as a result of funded activity, the leadership
+directions will be set collaboratively during the proposal writing process and
+then subsequently between lab members and Matt.  For projects which are
+externally developed (for instance, ``yt``), leadership for the project as a
+whole will be conducted as decided by the broader community.  However, internal
+to the lab, development may proceed somewhat in parallel, with the ultimate
+goal of conforming to upstream expectations and development strategies.
+
+Decisions regarding strategic direction for software projects (including
+algorithmic strategies) will be made collaboratively with Matt and involved lab
+members.
+
+For technical directions on lab-developed software, we operate by `"lazy
+consensus," <https://rave.apache.org/docs/governance/lazyConsensus.html>`_
+which can be conducted via the ``dxl@ncsa.illinois.edu`` mailing list.
+
+For social direction, particularly when engaging with external communities of
+researchers about data and data analysis, please keep Matt CC'd on email
+communication.
+
