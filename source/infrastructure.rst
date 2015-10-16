@@ -88,9 +88,23 @@ We run several services.
  * ownCloud: You can log in with your NCSA credentials to
    https://hub.yt/owncloud/ to access a private ownCloud instance, which acts
    like Dropbox or Google Drive.  Currently this has a total of 4TB available,
-   but may be migrated to using ``/dpool/`` eventually.
+   but may be migrated to using ``/dpool/`` eventually. This resource can also
+   be mounted locally, provided that you have `davfs2
+   <http://savannah.nongnu.org/projects/davfs2>`_ installed
+   
+   .. code-block:: console
+
+    mkdir owncloud
+    sudo mount -t davfs \
+       https://hub.yt/owncloud/remote.php/webdav \
+       $PWD/owncloud
+   ..
+
+   For convienience it is possible to modify ``/etc/fstab`` and set a permanent
+   mountpoint. Additional details can be found in `OwnCloud's manual
+   <https://doc.owncloud.org/server/7.0/user_manual/files/files.html>`_.
  * You can start a new `SAGE2 <http://sage2.sagecommons.org/>`_ instance by
-   visiting https://hub.yt/startsage/ .  This will return you both a hash you
+   visiting https://hub.yt/startsage/ . This will return you both a hash you
    can share with others (for screen sharing) and a running instance of SAGE2.
  * Hackpad: we are exploring running a hackpad instance.
  * The yt pastebin at http://paste.yt-project.org/ is hosted on DXL resources
