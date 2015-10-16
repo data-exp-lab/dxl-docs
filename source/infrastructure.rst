@@ -96,7 +96,13 @@ We run several services.
  * The yt pastebin at http://paste.yt-project.org/ is hosted on DXL resources
    and can be accessed via the command line through the ``yt`` command line
    tool and the ``pastebin`` and ``pastebin_grab`` subcommands.
-
+ * public jupyterhub: Anyone with BitBucket account can spawn a jupyter 
+   server with access to example datasets and yt quickstart. Service is
+   available at https://use.yt/
+ * private jupyterhub: DXL members can spawn jupyter server that automounts
+   their owncloud home directory and has access to dxl's storage pool using
+   their NCSA's credentials. Service is available at https://hub.yt/jupyter-dev/
+   
 The `dxl-tools <http://bitbucket.org/data-exp-lab/dxl-tools>`_ repository
 includes tools to utilize our curlDrop server and to connect to remote Jupyter
 kernels on dxl resources.  Until it is released on PyPI, you can install it
