@@ -4,9 +4,9 @@ Mission Statement
 Short Version
 -------------
 
-We seek to develop and utilize interdisciplinary tools for data analysis and
-visualization, to support the scholarly pursuits of ourselves and others and
-to build a strong community engaged in participatory inquiry.
+We seek to develop and utilize innovative, interdisciplinary tools for data
+analysis and visualization, to support the scholarly pursuits of ourselves and
+others and to build a strong community engaged in participatory inquiry.
 
 Long Version
 ------------

@@ -26,6 +26,23 @@ Contents:
    communication
    coding_and_software
 
+This Document
+=============
+
+This document is based on `Lab Carpentry <http://labcarpentry.org/>`_ and is
+available under the `CC-0 <https://creativecommons.org/choose/zero/>`_ license.
+
+To make changes to this document, fork the repository from the primary Data
+Exploration Lab repository at http://bitbucket.org/data-exp-lab/dxl-docs and
+submit your changes as a pull request.
+
+.. note::
+
+   The Data Exploration Lab is subject to the policies of the University of
+   Illinois at Urbana-Champaign.  This document does not override any of those
+   policies, and the policies of the University take precedence over any
+   statements (implied or explicit) in this document.
+
 Indices and tables
 ==================
 

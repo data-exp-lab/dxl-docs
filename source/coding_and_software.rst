@@ -49,6 +49,13 @@ template docstring format, see the yt codebase in
 Licensing
 ---------
 
+.. note::
+
+   This section is subject to University guidelines particularly as they
+   pertain to student involvement for compensation or academic credit.
+   All grant proposals submitted by the DXL include language regarding the
+   specific licenses and open source nature of projects.
+
 All code generated in the lab should be permissively, non-copyleft Open Source.
 If contributions to upstream copyleft projects are made, those contributions
 can be licensed in accordance with the upstream project license (i.e.,

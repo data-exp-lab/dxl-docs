@@ -43,6 +43,34 @@ developed within the lab following departure of a primary developer.  In such a
 case, decisions about "forking" or bifurcating development will be held on a
 case-by-case basis.
 
+Lab Presence and Environment
+----------------------------
+
+.. note::
+
+   Human resources guidelines take precedence over this section.
+
+Full-time lab members are encouraged to make themselves available during normal
+working business hours, although this is a flexible definition; in general, if
+you are able to come to the office between 10-4, that is desirable.  Remote
+lab members should try to be available during those hours and accessible
+online or via phone.  We intend to foster a collegial lab atmosphere, with
+opportunities for spontaneous discussions and creative opportunities.
+
+Lab members are *not* expected to sacrifice personal or leisure time in service
+of projects.  Working long hours without interruption can lead to burnout,
+exhaustion, and overall *impedes* the type of atmosphere we are trying to
+develop.
+
+Lab members are encouraged to participate in NCSA activities as well as
+activities in other departments on campus (Astronomy, GSLIS, Beckman,
+Informatics).  This includes contributing to NCSA projects, collaborating with
+individuals from other groups around campus and the center, and fostering new
+collaborations both internal and external to UIUC.  We strive to be a part of
+the intellectual community at NCSA and UIUC.  Lab members should endeavor to be
+good "citizens" at NCSA, participating in colloquia, all-hands meetings, and
+other projects as they become available.
+
 Data Management
 ---------------
 
@@ -82,8 +110,11 @@ journal, a preprint server, *or* a non-author for review.  Because it is
 expected that repositories will be made publicly accessible, including history
 of changesets, lab members are encouraged to behave professionally in them.
 
-Grant proposals should be made available unless there is confidential
-information.
+Grant proposals developed internally with no external PIs or Co-PIs should be
+made available unless there is confidential information.  Grant proposals
+developed in collaboration with external PIs or Co-PIs may be kept
+confidential at the external collaborators discretion, although our preference
+is for them to be open.
 
 Record Keeping
 --------------
@@ -111,6 +142,10 @@ case of an astrophysical simulation paper, this would include:
 The overall theme here is that of reproducibility; this is not the same as
 bitwise identical reproduction, which is often unavailable because of
 constraints such as order-of-arrival differences.
+
+We will endeavor to respond to requests to reproduce DXL results by providing
+necessary technology and data, allowing for reasonable commitments of time and
+effort.
 
 Ethics
 ------
@@ -140,3 +175,8 @@ where not possible, should be included as footnotes.
 
 When developing software, we must make a best effort to cite which pieces of
 software contributed to the development.
+
+Plagarism is unacceptable in any form.  This includes "first pass" text
+included in papers or proposals; when "first pass" text is included from an
+external source, it must be clearly marked as such to ensure it is not
+accidentally included in the final product.
