@@ -36,8 +36,9 @@ understood, as memory errors are a significant source of difficulty for many
 coding problems.
 
 Whenever possible, citations to algorithms (whether from papers or URLs such as
-Stack Overflow) should be included in comments close to that section of the
-code.
+Stack Overflow) must be included in comments close to that section of the code.
+(Note that in the specific case of Stack Overflow, code and answers are
+subject to Creative Commons licensing.)
 
 Whenever developing in Python, docstrings should be added to *all* public
 facing functions.  These must at a minimum cover all parameters and expected
@@ -55,7 +56,9 @@ contributions to Mercurial can be GPL2+).
 
 Importantly, in the lab we should cultivate an atmosphere of respect for
 licensing terms and ensuring that we are at all times in compliance with those
-terms.  Our preferred license is BSD 3-clause.
+terms.  Our preferred license is BSD 3-clause.  For further discussion see
+`Stodden 2008
+<http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=4720221>`_.
 
 Languages
 ---------

@@ -66,3 +66,5 @@ Social Media Policy
 In general, unless there are embargos or restrictions, social media can be
 freely used.  However, lab members are encouraged to be respectful and kind
 while participating if they are representing themselves as lab members.
+Earlier comments about professionalism apply here when lab members are
+presenting themselves as representatives of the lab.

@@ -10,15 +10,18 @@ conducted on them during the course of being present in the lab,
 acknowledgments would be appreciated; funding acknowledgments may be necessary.
 
 Projects that are collaborated on between lab members do confer authorship,
-whether that collaboration takes the form of intellectual collaboration or
-technical collaboration.  For instance, writing code to support analysis or
-simulation would confer authorship.  Sharing information during group meetings
-does not, although if material intellectual contributions are made by lab
-members, that would confer authorship.  Matt would **very much** to be involved
-in the development of projects that lead to publication, but this is not
-strictly necessary, and certainly not necessary where lab members are providing
-supporting roles to external collaborations.  Please keep Matt apprised of the
-broad outlines of your external and internal collaborations.
+whether that collaboration takes the form of intellectual collaboration,
+technical collaboration or data sharing.  For instance, writing code to support
+analysis or simulation would confer authorship.  Sharing information during
+group meetings does not, although if material intellectual contributions (i.e.,
+new directions, solutions to problems, specific and directed project ideas) are
+made by lab members, that would confer authorship.
+
+Matt would **very much** to be involved in the development of projects that
+lead to publication, but this is not strictly necessary, and certainly not
+necessary where lab members are providing supporting roles to external
+collaborations.  Please keep Matt apprised of the broad outlines of your
+external and internal collaborations.
 
 Project Ownership
 -----------------

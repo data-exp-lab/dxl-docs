@@ -5,7 +5,7 @@ Short Version
 -------------
 
 We seek to develop and utilize interdisciplinary tools for data analysis and
-visualization, to support the scholarly pursuits of ourselves and others, and
+visualization, to support the scholarly pursuits of ourselves and others and
 to build a strong community engaged in participatory inquiry.
 
 Long Version
@@ -77,7 +77,7 @@ Guiding this mission are a number of values that are core to our operations.
  * Technology: Technology can be applied to inquiry, but is not
    necessarily an end in and of itself.
  * Application: Development of tools and infrastructure should be guided by
-   those who develop it, and the best way to ensure we are guided is to be
+   those who apply it, and the best way to ensure we are guided is to be
    leading the charge in conducting scholarly inquiry for our own research
    goals.
  * Sharing: Data, code and other digital research objects should be shared

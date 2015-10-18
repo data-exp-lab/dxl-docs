@@ -138,5 +138,5 @@ To purchase equipment, whether that is computer hardware/accessories or
 intellectual materials such as books, send an email to Matt's Illinois address
 with links to the equipment on `CDW <http://cdw.com/>`_, `Dell
 <http://dell.com/>`_ or `Amazon <http://amazon.com/>`_ along with prices and a
-sentence or two about what they are and why you need the items.  He will
-forward it on to the appropriate contact people.
+sentence or two about what they are and why you need the items.  If the
+purchase is okay, he will forward it on to the appropriate contact people.
