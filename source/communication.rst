@@ -60,6 +60,9 @@ participate and understand.  This can help discourage the notion that projects
 developed on at DXL are not community projects, and will also help to continue
 engaging other members.
 
+For more discussion about this topic, see Matt's paper `Scaling a Code in the
+Human Dimension <http://arxiv.org/abs/1301.7064>`_.
+
 Social Media Policy
 -------------------
 
