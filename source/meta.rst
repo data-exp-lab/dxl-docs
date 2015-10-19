@@ -30,7 +30,8 @@ immediately.
 
 If you are being harassed, notice that someone else is being harassed, or have
 any other concerns, please contact `Matthew Turk <mjturk@illinois.edu>`_
-immediately.  If Matt is the cause of your concern, TODOTODO is a good informal
+immediately.  If Matt is the cause of your concern, Kaitlin Kratter (her gmail
+address is her first and last name separated by a period) is a good informal
 point of contact; she does not work for Matt or UIUC, and has agreed to
 mediate.  For official concerns, please contact `the UIUC WeCare office
 <http://wecare.illinois.edu/>`_, or the `Campus Office of Diversity, Equity and
