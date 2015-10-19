@@ -89,7 +89,7 @@ DXL and yt
 The Data Exploration Lab's goals are independent of those of the `yt project
 <http://yt-project.org/>`_.  However, ``yt`` may be an appropriate platform to
 guide them or develop them, particularly as there is a great deal of internal
-experience with ``yt`` in the DXL.  As such, ``yt`` should be explored as a
+experience with ``yt`` in the DXL.  As such, ``yt`` can be explored as a
 delivery platform for algorithms, interdisciplinary collaborations, and
 advanced inquiry methods before other platforms.
 

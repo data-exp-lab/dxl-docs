@@ -110,6 +110,13 @@ journal, a preprint server, *or* a non-author for review.  Because it is
 expected that repositories will be made publicly accessible, including history
 of changesets, lab members are encouraged to behave professionally in them.
 
+.. note::
+
+   Many professional societies, including AAS, consider the content of referee
+   reports to be *de facto* confidential.  As such, unless the report is
+   explicitly open, it should not be added to repositories as text, commit
+   messages, or comments in papers.
+
 Grant proposals developed internally with no external PIs or Co-PIs should be
 made available unless there is confidential information.  Grant proposals
 developed in collaboration with external PIs or Co-PIs may be kept
@@ -141,7 +148,10 @@ case of an astrophysical simulation paper, this would include:
 
 The overall theme here is that of reproducibility; this is not the same as
 bitwise identical reproduction, which is often unavailable because of
-constraints such as order-of-arrival differences.
+constraints such as order-of-arrival differences.  The additional overhead of
+making work reproducible should not be onerous compared to the other
+expectations, and in many ways (i.e., turnkey plot generation, good note taking
+on data, etc) can reduce the overall effort of developing papers and workflows.
 
 We will endeavor to respond to requests to reproduce DXL results by providing
 necessary technology and data, allowing for reasonable commitments of time and
@@ -168,7 +178,9 @@ When authoring papers, we should be providing citations to all software that
 assisted in the development of the scholarly work.  While in the extreme case
 this would extend to the operating system level, in general it is acceptable to
 cite the layers of software in the analysis stack (e.g., NumPy, Matplotlib,
-IPython/Jupyter, SymPy, yt, etc.)
+IPython/Jupyter, SymPy, yt, etc.)  It is preferred to directly cite the
+canonical papers (often described in ``CITATION.txt`` files) for software, but
+acknowledging them without citation may be sufficient.
 
 Citations to data DOIs or publications should be made wherever possible, and
 where not possible, should be included as footnotes.
