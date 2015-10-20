@@ -131,6 +131,21 @@ You can then upload files with:::
 
    dxl upload file1 file2 file3
 
+The ``dxl`` utility can also upload to Slack.  To use that aspect, go to `Slack
+Web API <https://api.slack.com/web>`_ site, and generate an API key for
+yourself.  Put that in ``~/.dxl/dxl.cfg`` like so:::
+
+   [dxl]
+   slack_api_key=WHATEVER
+
+Now you can use the command:::
+
+   dxl slack_upload file1
+
+Optionally, you can specify ``--channel`` to send it to a specific channel.  To
+send to a specific person, you have to specify ``@`` at the start, i.e.,
+``--channel "@matt"`` .
+
 Purchasing
 ----------
 
