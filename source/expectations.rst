@@ -192,3 +192,30 @@ Plagarism is unacceptable in any form.  This includes "first pass" text
 included in papers or proposals; when "first pass" text is included from an
 external source, it must be clearly marked as such to ensure it is not
 accidentally included in the final product.
+
+Acknowledgments
+---------------
+
+If you are supported by the Moore Foundation, please include this text in your
+paper's acknowledgments section:
+
+   This publication is supported in part by the Gordon and Betty Moore
+   Foundation's Data-Driven Discovery Initiative through Grant GBMF4561 to
+   Matthew Turk.
+
+If you are supported by the NSF SI2 award, please include this text in your
+paper's acknowledgments section (see `Section 3
+<http://www.nsf.gov/pubs/gpg/nsf04_23/6.jsp>`_)
+
+   This material is based upon work supported by the National Science
+   Foundation under Grant No. ACI-1535651.
+
+Except for articles or papers published in scientific, technical or
+professional journals, the following disclaimer must be included:
+
+   Any opinions, findings, and conclusions or recommendations expressed in this
+   material are those of the author(s) and do not necessarily reflect the views
+   of the National Science Foundation.
+
+At present, all postdocs in the lab are supported at least in part by both
+awards.
