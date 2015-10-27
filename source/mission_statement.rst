@@ -8,6 +8,10 @@ We seek to develop and utilize innovative, interdisciplinary tools for data
 analysis and visualization, to support the scholarly pursuits of ourselves and
 others and to build a strong community engaged in participatory inquiry.
 
+Our source code is available under the `data-exp-lab
+<https://bitbucket.org/data-exp-lab>`_ profile on BitBucket and `the same
+<http://github.com/data-exp-lab/>`_ on Github.
+
 Long Version
 ------------
 
