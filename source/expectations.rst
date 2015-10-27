@@ -1,6 +1,10 @@
 Expectations
 ============
 
+Note that we have a public "data sharing plan" for the GBMF DDDi award,
+available `here
+<http://figshare.com/articles/GBMF_DDD_Data_Sharing_Plan/1293561>`_.
+
 Authorship
 ----------
 

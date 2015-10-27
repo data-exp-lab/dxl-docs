@@ -14,8 +14,12 @@ Long Version
 The DXL was formed in the Spring of 2015 as a result of funding from the Gordon
 and Betty Moore Foundation through the Data Driven Discovery Investigator
 program in a grant to Matthew Turk, under the title "Changing How We Conduct
-Inquiry."  We are also grateful for funding from the National Science
-Foundation under the SI2-SSE program to develop the yt 
+Inquiry" (`proposal
+<http://figshare.com/articles/Matthew_Turk_Moore_DDD_Semifinalist_App/1030298>`_
+and `presentation <http://figshare.com/articles/Scaling_Discovery/1189365>`_)
+We are also grateful for funding from the National Science Foundation under the
+SI2-SSE program to develop the yt project (`proposal
+<http://figshare.com/articles/SI2_SSE_yt_Reusable_Components_for_Simulating_Analyzing_and_Visualizing_Astrophysical_Systems/909413>`_).
 
 In our vision of the future of data analysis, scientists should no longer have
 to struggle to understand their **data**.  They should be struggling to
