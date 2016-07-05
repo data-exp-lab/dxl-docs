@@ -1,6 +1,12 @@
 Writing Papers
 ==============
 
+.. note:: A template repository can be found here:
+          https://bitbucket.org/data-exp-lab/dxl-paper-template
+          and an example of a repository that does a very good job of meeting
+          the philosophical guidelines can be seen here:
+          https://bitbucket.org/ngoldbaum/galaxy_analysis
+
 From a practical perspective, the process of writing papers will go through
 several stages, including conception, drafting, iteration on content and text,
 submission, and iteration post-submission.
@@ -97,7 +103,13 @@ used to generate plots (*no* plots should be bespoke, hand-generated), and all
 scripts used to combine or explore data.
 
 All scripts should be expected to be run from the root directory of the
-repository, and should generate into either ``data/`` or ``figures/``.
+repository, and should generate into either ``data/`` or ``figures/``.  These
+scripts should make a best effort to identify their dependencies and required
+version numbers.
 
-These scripts should make a best effort to identify their dependencies and
-required version numbers.
+An alternate approach that is more robust, particularly against dependency
+information and installation issues, is to develop a ``setup.py`` file in the
+``scripts/`` repository that transforms it into an installable, editable
+package.  See the ``ngoldbaum`` example paper repository, linked above, for how
+this might work.  This helps identify dependencies through ``install_requires``
+as well.
