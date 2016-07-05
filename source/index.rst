@@ -27,6 +27,7 @@ Contents:
    infrastructure
    communication
    coding_and_software
+   writing_papers
 
 This Document
 =============

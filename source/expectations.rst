@@ -103,6 +103,8 @@ Wherever possible, names should conform to including either a date (if the data
 is tied to a specific time, parameter query or observation) or a
 semantically-meaningful name (if it is part of a larger project.)
 
+.. _openness:
+
 Openness
 --------
 
@@ -135,6 +137,8 @@ free-form, as the purpose is not to keep "tabs" on actions, but instead to
 ensure that work can be reconstructed.  These can be kept either in a
 centralized lab repository, next to specific projects in text files, or on
 Trello cards on the DXL organization.
+
+.. _reproducibility:
 
 Reproducibility
 ---------------
