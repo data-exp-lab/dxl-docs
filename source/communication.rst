@@ -7,23 +7,23 @@ Venues
 We use a few communication mechanisms that meet several different categories of
 need: ephemeral, archived, immediate, and asynchronous.
 
- * Slack: Currently, we utilize a private ``dxl`` channel on the yt project
-   Slack team at ``yt-project.slack.com``.  You can request access to this
-   channel and this team.
+ * Slack: We utilize a slack team at ``data-exp-lab.slack.com``.  You should
+   receive an invite when you join the group.
  * There is a shared Google calendar that you can be invited to.  Please post
    your travel dates, interesting conferences, and so on on this.  Lab visitors
    will be listed there as well.
- * We have a DXL Trello organization.  This is where for longer-term projects
-   we will track current progress and activity.  It can be found at
-   https://trello.com/dxl_ncsa/ and should be used freely.
- * For group note taking, currently we utilize Google Docs.
+ * We aim to have weekly group meetings, typically Wednesdays at 11AM.  These
+   group meetings include a general discussion of anything that needs to be
+   talked about (announcements, particularly interesting papers, etc) and then
+   an around-the-table of updates.  These can include things you've worked on,
+   things you've learned about, struggles you're having, and so on.
+ * For group note taking, we utilize `hackmd.io <https://hackmd.io/>`_.  Every
+   week before group meeting, a new document will be sent out including the
+   order-of-presentations (generated randomly!) and folks are encouraged to
+   write their updates in this in advance of the meeting.
  * There is a mailing list for asynchronous communication and announcement
-   dispersal.  This is at ``dxl@ncsa.illinois.edu`` and you can be added on
-   request.
- * We aim to have weekly group meetings, typically Fridays at 1PM.  These group
-   meetings have until now consisted of each person sharing a "Success," a
-   "Struggle," and something they'd like "Support" on.  Undergraduates and
-   graduate students get a free pass but are encouraged to contribute.
+   dispersal.  This is at ``dxl@ncsa.illinois.edu`` and you will be added when
+   you join the group.
  * Group members are strongly encouraged to have in-person meetings with each
    other or with Matt!
 
