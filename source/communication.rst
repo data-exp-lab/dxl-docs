@@ -6,9 +6,9 @@ Group Web Site
 
 We have a web site, stored in a repository at
 https://github.com/data-exp-lab/data-exp-lab.github.io/ .  You are expected to
-post news articles when you do things of note, as well as to update project
-information on that page.  All updates are conducted via pull request and git
-commits.
+post (short!) blog posts when you do things of note, as well as to update
+project information on that page.  All updates are conducted either via pull
+request or direct git commits.
 
 Also, you should add yourself to the page!
 

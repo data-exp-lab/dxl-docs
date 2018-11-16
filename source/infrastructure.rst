@@ -11,7 +11,9 @@ that are available for our use.
 The two non-provisioned nodes (dxl1 and dxl2 at ncsa.illinois.edu) have 20
 cores each allowing 2 threads per core for a total of 40 compute cores and are
 configured with 256GB of RAM.  The storage available on them is networked in
-``/dpool/`` and each user will have their own directory in ``/dpool/``.
+``/dpool/`` and each user will have their own directory in ``/dpool/``.  This
+is a good location for scratch and intermediate storage, but for long-term
+archiving we will use other locations.
 
 These nodes are configured such that each user that logs in will be logged into
 a `Docker <http://docker.com>`_ container.  This is accomplished by providing
