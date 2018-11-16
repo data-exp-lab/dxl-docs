@@ -23,7 +23,7 @@ Inquiry" (`proposal
 and `presentation <http://figshare.com/articles/Scaling_Discovery/1189365>`_)
 We are also grateful for funding from the National Science Foundation under the
 SI2-SSE program to develop the yt project (`proposal
-<http://figshare.com/articles/SI2_SSE_yt_Reusable_Components_for_Simulating_Analyzing_and_Visualizing_Astrophysical_Systems/909413>`_).
+<http://figshare.com/articles/SI2_SSE_yt_Reusable_Components_for_Simulating_Analyzing_and_Visualizing_Astrophysical_Systems/909413>`_ and `here <https://figshare.com/articles/SI2-SSI_Inquiry-Focused_Volumetric_Data_Analysis_Across_Scientific_Domains_Sustaining_and_Expanding_the_yt_Community/2061465>`_).
 
 In our vision of the future of data analysis, scientists should no longer have
 to struggle to understand their **data**.  They should be struggling to

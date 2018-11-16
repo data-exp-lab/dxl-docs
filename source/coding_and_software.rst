@@ -38,7 +38,8 @@ coding problems.
 Whenever possible, citations to algorithms (whether from papers or URLs such as
 Stack Overflow) must be included in comments close to that section of the code.
 (Note that in the specific case of Stack Overflow, code and answers are
-subject to Creative Commons licensing.)
+subject to licensing restrictions, which in practice will likely not impact
+their utilization but which must be acknowledged.)
 
 Whenever developing in Python, docstrings should be added to *all* public
 facing functions.  These must at a minimum cover all parameters and expected
@@ -128,4 +129,3 @@ which can be conducted via the ``dxl@ncsa.illinois.edu`` mailing list.
 For social direction, particularly when engaging with external communities of
 researchers about data and data analysis, please keep Matt CC'd on email
 communication.
-

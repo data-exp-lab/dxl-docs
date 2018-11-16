@@ -1,9 +1,12 @@
 Expectations
 ============
 
-Note that we have a public "data sharing plan" for the GBMF DDDi award,
-available `here
-<http://figshare.com/articles/GBMF_DDD_Data_Sharing_Plan/1293561>`_.
+Data Sharing
+------------
+
+We have a public "data sharing plan" for the GBMF DDDi award, available `here
+<http://figshare.com/articles/GBMF_DDD_Data_Sharing_Plan/1293561>`_.  The
+thoughts and motivations behind this apply across all projects in the group.
 
 Authorship
 ----------
@@ -11,7 +14,8 @@ Authorship
 Projects that lab members bring with them **do not** automatically confer
 authorship rights to either Matt or other lab members.  However, if work is
 conducted on them during the course of being present in the lab,
-acknowledgments would be appreciated; funding acknowledgments may be necessary.
+acknowledgments would be appreciated; funding acknowledgments are necessary to
+describe the source of your funding.
 
 Projects that are collaborated on between lab members do confer authorship,
 whether that collaboration takes the form of intellectual collaboration,
@@ -66,8 +70,13 @@ of projects.  Working long hours without interruption can lead to burnout,
 exhaustion, and overall *impedes* the type of atmosphere we are trying to
 develop.
 
+.. note::
+
+   Lab members are expected to participate in the intellectual life of our
+   hosting institutions -- such as NCSA!
+
 Lab members are encouraged to participate in NCSA activities as well as
-activities in other departments on campus (Astronomy, GSLIS, Beckman,
+activities in other departments on campus (Astronomy, iSchool, Beckman,
 Informatics).  This includes contributing to NCSA projects, collaborating with
 individuals from other groups around campus and the center, and fostering new
 collaborations both internal and external to UIUC.  We strive to be a part of
@@ -78,43 +87,31 @@ other projects as they become available.
 Data Management
 ---------------
 
-When data is used by the lab, it is expected to reside on the shared
-filesystem.  Accompanying this should be an index or README file describing
-what the data *is*, where it originated from, and what restrictions there are
-on its use.  When data is stored on the shared filesystem, there is no
-expectation of privacy within the lab unless it is explicitly enforced; for
-special cases this can be dealt with differently.  Lab members are not
-encouraged to browse other directories, but it is not forbidden.  For example,
-this might be an example directory structure:::
+We utilize `git-annex` for internal data sharing, and for sharing data
+externally, we recommend utilizing either `hub.yt <https://hub.yt>`_ or another
+service such as the `Illinois Data Bank <https://databank.illinois.edu>`_.
 
-  /dpool/mturk/DarkSkySims-DS14a/README
-  /dpool/mturk/DarkSkySims-DS14a/ds14_a_1.0000.sdf
-  /dpool/mturk/LIDAR-Philly/README
-  /dpool/mturk/LIDAR-Philly/data*
-  /dpool/mturk/HRRR-20140726/README
-  /dpool/mturk/HRRR-20140726/dir1/*
-  /dpool/mturk/HRRR-20140726/dir2/*
+The canonical `git-annex` repository is at
+https://github.com/data-exp-lab/datasets , and it utilizes the Box service at
+University of Illinois for backend storage.
 
-and so on.  In the near-term future, we will be deploying a data cataloging
-system which will be fed with the data from README files, and which will be the
-primary cataloging system in the future.
-
-Wherever possible, names should conform to including either a date (if the data
-is tied to a specific time, parameter query or observation) or a
-semantically-meaningful name (if it is part of a larger project.)
+In that repository, the `README.md` file describes how to utilize `git-annex`
+for sharing data internally, as well as how to add a new dataset.
 
 .. _openness:
 
 Openness
 --------
 
-Unless there is a *very* good reason (PII or other restrictions, for instance),
-work should be conducted in public repositories on publicly accessible servers
-such as bitbucket.  This includes software.  Paper repositories should be open,
-but may be held back as private until time of either first submission to a
-journal, a preprint server, *or* a non-author for review.  Because it is
-expected that repositories will be made publicly accessible, including history
-of changesets, lab members are encouraged to behave professionally in them.
+Unless there is a *very* good reason
+([PII](https://en.wikipedia.org/wiki/Personally_identifiable_information) or
+other restrictions, for instance), work should be conducted in public
+repositories on publicly accessible servers such as bitbucket.  This includes
+software.  Paper repositories should be open, but may be held back as private
+until time of either first submission to a journal, a preprint server, *or* a
+non-author for review.  Because it is expected that repositories will be made
+publicly accessible, including history of changesets, lab members are
+encouraged to behave professionally in them.
 
 .. note::
 
@@ -211,12 +208,26 @@ paper's acknowledgments section:
    Foundation's Data-Driven Discovery Initiative through Grant GBMF4561 to
    Matthew Turk.
 
-If you are supported by the NSF SI2 award, please include this text in your
+If you are supported by the NSF SI2-SSE award, please include this text in your
 paper's acknowledgments section (see `Section 3
 <http://www.nsf.gov/pubs/gpg/nsf04_23/6.jsp>`_)
 
    This material is based upon work supported by the National Science
    Foundation under Grant No. ACI-1535651.
+
+If you are supported by the NSF SI2-SSI award, please include this text in your
+paper's acknowledgments section (see `Section 3
+<http://www.nsf.gov/pubs/gpg/nsf04_23/6.jsp>`_)
+
+   This material is based upon work supported by the National Science
+   Foundation under Grant No. OAC-1663914.
+
+If you are supported by the Whole Tale NSF award, please include this text in
+your paper's acknowledgments section (see `Section 3
+<http://www.nsf.gov/pubs/gpg/nsf04_23/6.jsp>`_)
+
+   This material is based upon work supported by the National Science
+   Foundation under Grant No. OAC-1541450
 
 Except for articles or papers published in scientific, technical or
 professional journals, the following disclaimer must be included:
@@ -225,5 +236,13 @@ professional journals, the following disclaimer must be included:
    material are those of the author(s) and do not necessarily reflect the views
    of the National Science Foundation.
 
-At present, all postdocs in the lab are supported at least in part by both
-awards.
+If you utilize Matt's Blue Waters allocation for any of your calculations,
+please include this acknowledgment text:
+
+   This research is part of the Blue Waters sustained-petascale computing
+   project, which is supported by the National Science Foundation (awards
+   OCI-0725070 and ACI-1238993) and the state of Illinois. Blue Waters is a
+   joint effort of the University of Illinois at Urbana-Champaign and its
+   National Center for Supercomputing Applications.  This research was
+   supported through an allocation on Blue Waters provided through an Illinois
+   Allocation Award made by the Director of NCSA.
