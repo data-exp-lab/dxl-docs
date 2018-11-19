@@ -1,6 +1,17 @@
 Communication
 =============
 
+Group Web Site
+--------------
+
+We have a web site, stored in a repository at
+https://github.com/data-exp-lab/data-exp-lab.github.io/ .  You are expected to
+post (short!) blog posts when you do things of note, as well as to update
+project information on that page.  All updates are conducted either via pull
+request or direct git commits.
+
+Also, you should add yourself to the page!
+
 Venues
 ------
 
@@ -12,7 +23,7 @@ need: ephemeral, archived, immediate, and asynchronous.
  * There is a shared Google calendar that you can be invited to.  Please post
    your travel dates, interesting conferences, and so on on this.  Lab visitors
    will be listed there as well.
- * We aim to have weekly group meetings, typically Wednesdays at 11AM.  These
+ * We aim to have weekly group meetings, typically Tuesdays at 1PM.  These
    group meetings include a general discussion of anything that needs to be
    talked about (announcements, particularly interesting papers, etc) and then
    an around-the-table of updates.  These can include things you've worked on,
@@ -26,6 +37,10 @@ need: ephemeral, archived, immediate, and asynchronous.
    you join the group.
  * Group members are strongly encouraged to have in-person meetings with each
    other or with Matt!
+
+There is a repository with notes from past group meetings, as well as from
+conferences, available on GitHub at
+https://github.com/data-exp-lab/meeting-notes .
 
 Detail Level
 ------------

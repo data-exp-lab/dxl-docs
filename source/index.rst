@@ -12,15 +12,17 @@ analysis, visualization and computational science.
 tl;dr: data is fun when it has a metric.  Let's do cool things with that.
 
 This document is designed to be a reference document for lab members as well as
-part of an "onboarding" process when folks join the lab.  It is a living
-document, and lab members are encouraged to submit pull requests if they wish
-to update it.
+part of an "onboarding" process when folks join the lab -- there's even a
+checklist!  It is a living document, and lab members are encouraged to submit
+pull requests if they wish to update it.  It is stored at
+https://github.com/data-exp-lab/dxl-docs .
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
+   checklist
    meta
    mission_statement
    expectations

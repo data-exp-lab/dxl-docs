@@ -4,16 +4,16 @@ Infrastructure Guide
 Compute Resources
 -----------------
 
-We have five dedicated use nodes available.  These nodes are not currently
-provisioned through the NCSA Nebula system (http://nebula.ncsa.illinois.edu)
-but will be soon.  They will typically be pre-provisioned to allow for
-individual systems to be utilized by users.  At present, two of the five nodes
-are online.
+We have two nodes not provisioned through the NCSA nebula system, and we have a
+quota for a sizable set of Nebula resources (http://nebula.ncsa.illinois.edu)
+that are available for our use.
 
-These nodes have 20 cores each allowing 2 threads per core for a total of 40
-compute cores and are configured with 256GB of RAM.  The storage available on
-them is networked in ``/dpool/`` and each user will have their own directory in
-``/dpool/``.
+The two non-provisioned nodes (dxl1 and dxl2 at ncsa.illinois.edu) have 20
+cores each allowing 2 threads per core for a total of 40 compute cores and are
+configured with 256GB of RAM.  The storage available on them is networked in
+``/dpool/`` and each user will have their own directory in ``/dpool/``.  This
+is a good location for scratch and intermediate storage, but for long-term
+archiving we will use other locations.
 
 These nodes are configured such that each user that logs in will be logged into
 a `Docker <http://docker.com>`_ container.  This is accomplished by providing
@@ -39,23 +39,40 @@ NCSA has an allocation on the Illinois Campus Cluster
 computing needs.  To gain access, request a new user listing Matt as the
 contact and request the NCSA queue.
 
-In addition, we also have an Oculus Rift, two Google Cardboards, a Leap Motion,
-and a few Chromecast devices.
+Matt has a Blue Waters allocation you can be added to for judicious use of
+resources at that scale.
 
-Shared Storage
---------------
+Hardware
+--------
 
-On the dxl nodes, we have roughly 500TB of storage space that is shared in the
-``/dpool/`` directory structure.  Please utilize this wisely, and consider it
-to be a shared resource amongst the lab.
+We have a few things that you can use varying in degrees of playfulness and
+utility.
+
+ * HTC Vive
+ * Two Oculus Rift consumer products, one development kit (with Oculus
+   Touch controllers)
+ * `Project Tango tablet <https://en.wikipedia.org/wiki/Tango_(platform)>`_
+ * Chromecast
+ * Dell android tablet
+ * `Dark Side lego kit
+   <https://lego.fandom.com/wiki/9754_Dark_Side_Developer_Kit>`_
+ * Google Cardboard (including `View Master
+   <https://www.greenbot.com/article/2995583/android/the-best-cheap-cardboard-vr-viewer-is-mattels-view-master.html>`_)
+ * Leap Motion
+ * USB controller (works with `ipywidgets
+   <https://ipywidgets.readthedocs.io>`_)
 
 Version Control
 ---------------
 
-The preferred version control system for DXL projects is `Mercurial
-<http://mercurial-scm.org/>`_ although in some specific cases Git can be
-utilized.  At present, we utilize BitBucket under the ``data-exp-lab`` team.
-Our list of repositories is available at http://bitbucket.org/data-exp-lab/ .
+The preferred version control system for DXL projects was `Mercurial
+<http://mercurial-scm.org/>`_ but as a result of project transitions, we
+primarily now use Git and Github.
+
+We have homes on both GitHub and Bitbucket:
+
+  * https://github.com/data-exp-lab/
+  * https://bitbucket.org/data-exp-lab/
 
 A good guideline for version control is to version control any piece of code
 that rises above the level of a simple script for testing external software.
@@ -70,7 +87,8 @@ Lab members will have the following accounts:
 
  * NCSA account, which will provide access to most resources
  * UIUC account, which will be used for Campus Cluster.
- * Various accounts related to external providers: `BitBucket
+ * Various accounts related to external providers: `Github
+   <https://github.com/>`_, `BitBucket
    <http://bitbucket.org/>`_, `Trello <http://trello.com/>`_, and Slack
    (invitation will be issued).
 
@@ -85,37 +103,13 @@ We run several services.
  * curldrop: You can execute ``curl -T somefile http://use.yt/upload/`` to
    share a file up to several gigabytes.  The return value will be the hash at
    which the file can be located.
- * ownCloud: You can log in with your NCSA credentials to
-   https://hub.yt/owncloud/ to access a private ownCloud instance, which acts
-   like Dropbox or Google Drive.  Currently this has a total of 4TB available,
-   but may be migrated to using ``/dpool/`` eventually. This resource can also
-   be mounted locally, provided that you have `davfs2
-   <http://savannah.nongnu.org/projects/davfs2>`_ installed
-   
-   .. code-block:: console
-
-    mkdir owncloud
-    sudo mount -t davfs \
-       https://hub.yt/owncloud/remote.php/webdav \
-       $PWD/owncloud
-   ..
-
-   For convienience it is possible to modify ``/etc/fstab`` and set a permanent
-   mountpoint. Additional details can be found in `OwnCloud's manual
-   <https://doc.owncloud.org/server/7.0/user_manual/files/files.html>`_.
- * You can start a new `SAGE2 <http://sage2.sagecommons.org/>`_ instance by
-   visiting http://use.yt/startsage/ . This will return you both a hash you
-   can share with others (for screen sharing) and a running instance of SAGE2.
- * Hackpad: we are exploring running a hackpad instance.
+ * Box: University of Illinois has a Box subscription that provides
+   quote-unquote unlimited storage.  You can 
+ * Hackpad: You can either use `HackMD <https://hackmd.io/>`_ or our
+   self-hosted `CodiMD <https://hackmd.hub.yt/>`_.
  * The yt pastebin at http://paste.yt-project.org/ is hosted on DXL resources
    and can be accessed via the command line through the ``yt`` command line
    tool and the ``pastebin`` and ``pastebin_grab`` subcommands.
- * public jupyterhub: Anyone with BitBucket account can spawn a jupyter 
-   server with access to example datasets and yt quickstart. Service is
-   available at https://use.yt/
- * private jupyterhub: DXL members can spawn jupyter server that automounts
-   their owncloud home directory and has access to dxl's storage pool using
-   their NCSA's credentials. Service is available at https://hub.yt/jupyter-dev/
    
 The `dxl-tools <http://bitbucket.org/data-exp-lab/dxl-tools>`_ repository
 includes tools to utilize our curlDrop server and to connect to remote Jupyter
