@@ -15,16 +15,16 @@ extremely severe.
 
 Quoting from article `Graduate School Can Have Terrible Effects on People's Mental Health <https://www.theatlantic.com/education/archive/2018/11/anxiety-depression-mental-health-graduate-school/576769/>`_:
 
- > The doctoral-degree experience often consists of intense labor expectations
- > for little pay and a resulting lack of sleep and social life. In addition,
- > there is the notorious hierarchy of academia, which often promotes power
- > struggles and tribalism.
- > ...
- > Graduate students are disproportionately likely to struggle with
- > mental-health issues. The researchers surveyed roughly 500 economics Ph.D.
- > candidates at eight elite universities, and found that 18 percent of them
- > experienced moderate or severe symptoms of depression and anxiety. That’s more
- > than three times the national average, according to the study.
+  The doctoral-degree experience often consists of intense labor expectations
+  for little pay and a resulting lack of sleep and social life. In addition,
+  there is the notorious hierarchy of academia, which often promotes power
+  struggles and tribalism.
+  ...
+  Graduate students are disproportionately likely to struggle with
+  mental-health issues. The researchers surveyed roughly 500 economics Ph.D.
+  candidates at eight elite universities, and found that 18 percent of them
+  experienced moderate or severe symptoms of depression and anxiety. That’s more
+  than three times the national average, according to the study.
 
 Campus Resources
 ----------------
@@ -45,6 +45,7 @@ Psychological, Interpersonal and Academic Concerns
  * Phone: 217-333-3704
  * https://counselingcenter.illinois.edu/counseling
 
+
  * McKinley Mental Health
  * 313 McKinley Health Center
  * 8:00 a.m. - 5:00 p.m., Monday through Friday
@@ -58,6 +59,7 @@ Stress Management/Self-help
  * 8:00 a.m. - 5:00 p.m., Monday through Friday
  * Phone: 217-333-6000
  * www.mckinley.illinois.edu/relax
+
 
 
  * McKinley Health Resource Center
@@ -91,10 +93,14 @@ without endorsement.
  * Carle Mental Health
  * https://carle.org/services/psychology-psychiatry
 
+
+
  * Elliott Counseling Group
  * 309 W. Clark St.
  * 217-398-9066
  * https://elliottcounselinggroup.com/
+
+
 
  * The Pavillion
  * 809 W Church St
