@@ -23,6 +23,7 @@ Contents:
    :maxdepth: 2
 
    checklist
+   resources
    meta
    mission_statement
    expectations
