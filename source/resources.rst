@@ -51,6 +51,11 @@ Psychological, Interpersonal and Academic Concerns
  * 8:00 a.m. - 5:00 p.m., Monday through Friday
  * Phone: 217-333-2705
 
+
+For faculty, staff and postdocs, there is also the `FSAS program 
+<https://humanresources.illinois.edu/fsas/index.html>`_ which can connect you
+with resources.
+
 Stress Management/Self-help
 +++++++++++++++++++++++++++
 
