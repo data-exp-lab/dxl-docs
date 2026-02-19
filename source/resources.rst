@@ -104,10 +104,3 @@ without endorsement.
  * 309 W. Clark St.
  * 217-398-9066
  * https://elliottcounselinggroup.com/
-
-
-
- * The Pavillion
- * 809 W Church St
- * 24h 217.373.1700
- * https://www.pavilionhospital.com/
